@@ -34,6 +34,7 @@ The data was previously cleaned with a first ETL process, the changed made here 
 
 ## Exploratory Data Analysis (EDA)
 In this part, the principal objective was to visualize data with histograms for a better understanding of the variation and distribution in each feature.
-  ![](images/hist1.ppg)
+  ![](images/hist1.png)
 
-
+# Merge Datasets and Analysis
+In this step, the principal issue was to merge both datasets, sales df with stores information df, and visualize how this data behave
