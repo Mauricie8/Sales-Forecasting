@@ -34,8 +34,6 @@ The data was previously cleaned with a first ETL process, the changed made here 
 
 ## Exploratory Data Analysis (EDA)
 In this part, the principal objective was to visualize data with histograms for a better understanding of the variation and distribution in each feature.
-  ![](images/credit-limit-kdeplot.jpg)
-- To graph and understand other correlations in values.
-  ![](images/correlations.png)
+  ![](images/hist1.ppg)
 
 
