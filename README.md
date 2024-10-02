@@ -51,9 +51,27 @@ On the other hand, let's look at the variation of Sales average across the time:
 
   ![](images/avg-sales-per-day.png)
 
-- Per day of week
-
-  ![](images/avg-sales-per-day-week.png)
-
 The high season is november-december, the start-middle-end of the months are the most important part of each one.
 
+  ![](images/sales-date-store.png)
+
+There is a tendency towards slight growth across the months, for all stores.
+
+  ![](images/sales-promo-dist.png)
+
+It can be observed that sales are more concentrated on days with promotions.
+
+# Final Prediction with and without Holidays
+Library used: Facebook Prophet.
+Holidays are from both school and state.
+
+Prediction Without Holidays      |        Prediction With Holidays
+:---------:|:----------:
+![](images/pred-without-holiday.png)         |   ![](images/pred-with-holiday.png)      
+
+Trend Without Holidays      |        Trend With Holidays
+:---------:|:----------:
+![](images/trend-without-holiday.png)         |   ![](images/trend-with-holiday.png)   
+
+# Conclusion
+The decline in sales with holidays incorporated into the model seems to reflect a realistic pattern. It’s natural for sales to decrease following some periods, but in this case the final tendency is not good. The possible solution might be to add more Promotion days and to optimize the use of these.
