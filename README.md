@@ -37,4 +37,8 @@ In this part, the principal objective was to visualize data with histograms for 
   ![](images/hist1.png)
 
 # Merge Datasets and Analysis
-In this step, the principal issue was to merge both datasets, sales df with stores information df, and visualize how this data behave
+In this step, the principal issue was to merge both datasets, sales df with stores information df, and visualize how this data behave after that.
+For example, seeing the correlations we can determine that:
+- Sales is strongly correlated with Customers(first), Promo(second) and SchoolHoliday(third, negative)
+- Promo is strongly dependient of Customers, SchoolHoliday and DayOfWeek.
+  ![](images/correlations.png)
