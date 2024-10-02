@@ -42,3 +42,18 @@ For example, seeing the correlations we can determine that:
 - Sales is strongly correlated with Customers(first), Promo(second) and SchoolHoliday(third, negative)
 - Promo is strongly dependient of Customers, SchoolHoliday and DayOfWeek.
   ![](images/correlations.png)
+On the other hand, let's look at the variation of Sales average across the time:
+- Per month
+
+  ![](images/avg-sales-per-month.png)
+
+- Per day of month
+
+  ![](images/avg-sales-per-day.png)
+
+- Per day of week
+
+  ![](images/avg-sales-per-day-week.png)
+
+The high season is november-december, the start-middle-end of the months are the most important part of each one.
+
