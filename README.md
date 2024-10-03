@@ -1,4 +1,4 @@
-# Sales-Project
+# Sales Forecasting with Facebook Prophet
 ![](images/introduction.jpg)
 
 ---
